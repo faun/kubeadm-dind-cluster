@@ -213,7 +213,7 @@ to set the prefix used for DNS64, subnet prefix to use for DinD, and
 the service subnet CIDR (among other settings - see dind-cluster.sh):
 
 ```shell
-export EMBBEDDED_CONFIG=y
+export EMBEDDED_CONFIG=y
 export DNS64_PREFIX=fd00:77:64:ff9b::
 export DIND_SUBNET=fd00:77::
 export SERVICE_CIDR=fd00:77:30::/110
